@@ -1,0 +1,19 @@
+.bg-img{
+
+    background-image: linear-gradient(0deg, rgba(10, 130, 243, 0.856),rgba(236, 149, 17, 0.877)) ,url("../images/OIP.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.col-lg-4{
+    animation-name: texts;
+    animation-duration: .9s;
+  }
+  @keyframes texts {
+    0% {
+        transform: translateY(150px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+  }
