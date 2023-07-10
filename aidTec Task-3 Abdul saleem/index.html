@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="container">
+    <h1>Temperature Converter</h1>
+    
+    <div class="converter">
+      <label for="input">Input:</label>
+      <input type="number" id="input">
+    </div>
+    
+    <div class="converter-row">
+      <div class="converter">
+        <label for="from">From:</label>
+        <select id="from" onclick="convert()">
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="kelvin">Kelvin</option>
+        </select>
+      </div>
+      
+      <div class="converter">
+        <label for="to">To:</label>
+        <select id="to" onclick="convert()">
+          <option value="celsius" >Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="kelvin">Kelvin</option>
+        </select>
+      </div>
+    </div>
+    
+
+    <div class="converter">
+      <label for="Output">Output:</label>
+      <input type="text" id="result" class="Output" readonly>
+    </div>
+
+    <h2>Developed by Abdul Saleem</h2>
+    <div class="home__social">
+      <a href="https://www.linkedin.com/in/abdul-saleem-982485227/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://twitter.com/salim_sparta" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
+      <a href="https://github.com/AbdulSalimSparta" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+      <a href="https://www.instagram.com/_sparta_salim/"  class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100027596809970" class="home__social-icon"><i class='bx bxl-facebook' ></i></a>
+  </div>
+
+  </div>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
